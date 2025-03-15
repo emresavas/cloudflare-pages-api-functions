@@ -1,0 +1,10 @@
+[site]
+site = 'cloudflare-pages-with-api'
+
+[build]
+directory = 'dist'
+pages_build_output_dir = "./dist"
+
+[functions]
+directory = 'functions'
+include = ['dist/_routes.json']

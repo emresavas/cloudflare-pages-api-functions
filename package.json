@@ -1,0 +1,13 @@
+{
+  "name": "cloudflare-pages-with-api",
+  "version": "1.0.0",
+  "description": "A template project for creating web applications using Cloudflare Pages with both static HTML pages and serverless API endpoints",
+  "scripts": {
+    "dev": "wrangler pages dev dist --functions=functions",
+    "start": "wrangler pages dev dist --functions=functions"
+  },
+  "author": "",
+  "devDependencies": {
+    "wrangler": "^3.34.2"
+  }
+}

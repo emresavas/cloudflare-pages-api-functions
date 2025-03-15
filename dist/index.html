@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare Pages with API Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cloudflare Pages with API</h1>
+        <p>Welcome to your Cloudflare Pages template with API endpoints!</p>
+        
+        <div class="card">
+            <h2>API Endpoints</h2>
+            <ul>
+                <li><a href="/api/hello">/api/hello</a> - Returns a simple greeting</li>
+                <li><a href="/api/time">/api/time</a> - Returns the current server time</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Test API Call</h2>
+            <button id="testApi">Call Hello API</button>
+            <div id="apiResult" class="result"></div>
+        </div>
+
+        <div class="card">
+            <h2>Navigation</h2>
+            <p><a href="/about.html">About This Template</a></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
