@@ -1,3 +1,5 @@
+⚠️ **IMPORTANT NOTE (June 2025)**: Cloudflare now recommends using Cloudflare Workers over Cloudflare Pages for new projects. While this template has served its purpose well for me, for new projects consider using Cloudflare Workers which offers broader features (including Durable Objects, Cron Triggers, and better observability). See [Cloudflare's migration guide](https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/) for more details.
+
 # Cloudflare Pages with API Template
 
 A template project for creating web applications using Cloudflare Pages with both static HTML pages and serverless API endpoints.
